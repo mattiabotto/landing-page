@@ -126,3 +126,24 @@ h2 {
   gap: 48px;
   justify-content: center;
 }
+
+.quote {
+  padding: 96px 0;
+  background-color: #E5E7EB;
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote p {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.quote .name {
+  font-weight: 600;
+  text-align: end;
+  margin-top: 16px;
+}
