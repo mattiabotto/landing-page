@@ -48,6 +48,7 @@ a {
 
 .hero {
   padding: 120px 160px;
+  flex-wrap: wrap;
 }
 
 .nav {
@@ -81,13 +82,47 @@ button,
 .left {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   gap: 16px;
 }
 
 .left,
 .right {
   align-self: center;
-  flex: auto;
+  flex: 1 1 300px;
   max-width: 500px;
+}
+
+.info {
+  padding: 48px 0 96px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
+  margin-bottom: 48px;
+}
+
+.info-card {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+}
+
+.info-card p {
+  text-align: center;
+}
+
+.info-card img {
+  border: 5px solid #3882F6;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+  justify-content: center;
 }
